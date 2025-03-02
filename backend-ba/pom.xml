@@ -82,6 +82,11 @@
 			<artifactId>spring-security-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+<!--			<version>current</version> &lt;!&ndash; oder die aktuelle Version &ndash;&gt;-->
+		</dependency>
 	</dependencies>
 
 	<build>
