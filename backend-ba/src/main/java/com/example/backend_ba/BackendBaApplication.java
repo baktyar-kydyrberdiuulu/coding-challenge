@@ -15,10 +15,16 @@ public class BackendBaApplication {
 		Algorithm algorithm = new Algorithm();
 		algorithm.bubbleSort(bubleUnsortet);
 		int[] quicksortListe = {12,4,3,11,25,89,22,123};
-		System.out.println("Vor dem Sortieren: " + Arrays.toString(quicksortListe));
+//		System.out.println("Vor dem Sortieren: " + Arrays.toString(quicksortListe));
 		algorithm.sort(quicksortListe);
+//
+//		System.out.println("Nach dem Sortieren: " + Arrays.toString(quicksortListe));
+		int[] insertionSort = {12,3,34,2,4,1,9};
+		System.out.println("Vor dem Sortieren: " + Arrays.toString(insertionSort));
 
-		System.out.println("Nach dem Sortieren: " + Arrays.toString(quicksortListe));
+		algorithm.InsertionSort(insertionSort);
+		System.out.println("Vor dem Sortieren: " + Arrays.toString(insertionSort));
+
 
 //		System.out.println("Der größte Wert in der Liste ist: "algorithm.sort(quicksortListe));
 	}
