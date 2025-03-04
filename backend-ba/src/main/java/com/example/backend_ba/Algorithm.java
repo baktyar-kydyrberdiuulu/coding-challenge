@@ -1,5 +1,6 @@
 package com.example.backend_ba;
 
+import ch.qos.logback.core.net.SyslogOutputStream;
 import org.apache.commons.lang3.ArrayUtils;
 
 import java.util.Arrays;
@@ -96,5 +97,19 @@ public class Algorithm {
                 }
             }
         }
+    }
+    // Zweidimensionale Arrays
+//    int [][] x = new int[zeile][spalte]
+    void zweidimensionaleArrays(int [][] multi){
+        for (int i=0; i<multi.length; i++){
+            for (int j=0; j< multi[i].length; j++){
+                multi[i][j] = (i + 1) * (j+1);
+                System.out.print(multi[i][j] + "\t");
+            }
+            System.out.println();
+        }
+
+
+
     }
 }

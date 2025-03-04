@@ -25,7 +25,8 @@ public class BackendBaApplication {
 		algorithm.InsertionSort(insertionSort);
 		System.out.println("Vor dem Sortieren: " + Arrays.toString(insertionSort));
 
-
+		int [][] multi = new int[5][10];
+		algorithm.zweidimensionaleArrays(multi);
 //		System.out.println("Der größte Wert in der Liste ist: "algorithm.sort(quicksortListe));
 	}
 
